@@ -14,14 +14,14 @@ public class C05_Switch {
         */
 
     public static void main(String[] args) {
-        Scanner scan=new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("Lutfen bir yıl giriniz");
-        int yil=scan.nextInt();
+        int yil = scan.nextInt();
 
         System.out.println("Lutfen 1-12 arası bir ay numarası giriniz");
-        int ay= scan.nextInt();
+        int ay = scan.nextInt();
 
-        switch (ay){
+        switch (ay) {
             case 1:
             case 3:
             case 5:
@@ -29,16 +29,18 @@ public class C05_Switch {
             case 8:
             case 10:
             case 12:
-                System.out.println("Girdiginiz ay 31 gun ceker");break;
+                System.out.println("Girdiginiz ay 31 gun ceker");
+                break;
             case 4:
             case 6:
             case 9:
             case 11:
-                System.out.println("Girdiginiz ay 30 gun ceker");break;
+                System.out.println("Girdiginiz ay 30 gun ceker");
+                break;
             case 2:
-                if (yil%4==0){
+                if (yil % 4 == 0) {
                     System.out.println("Girdiğiniz ay 29 gun ceker");
-                }else{
+                } else {
                     System.out.println("Girdiginiz ay 28 gun ceker");
                 }
                 break;
@@ -47,8 +49,6 @@ public class C05_Switch {
 
 
         }
-
-
 
 
     }

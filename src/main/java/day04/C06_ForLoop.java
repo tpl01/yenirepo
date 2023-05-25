@@ -14,9 +14,7 @@ public class C06_ForLoop {
         int sayac=0;        //a harfi için
         for(int i=0;i<kelime.length();i++){
             if(kelime.charAt(i)=='a'){sayac++;
-            }else if(kelime.charAt(i)=='c'){break;
-            }
-
+            }else if(kelime.charAt(i)=='c')break;
         }
         System.out.println("ilk c ye kadar kelimenizde a harfleri sayisi= "+sayac);
 

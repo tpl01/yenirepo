@@ -31,6 +31,8 @@ public class C04_Switch {
             System.out.println("lütfen 0-4 arasi giriniz");}else if(puan<1){seviye="kaldi";}else if(puan<2){
             seviye="gecti";}else if(puan<2.5){seviye="iyi";}else if(puan<3.5){seviye="üst";}else {seviye="harika";}
 
+        System.out.println("seviye= "+seviye);
+
        switch (seviye){case "kaldi":
            System.out.println("F");break; case "gecti":
            System.out.println("D");break; case "iyi":
