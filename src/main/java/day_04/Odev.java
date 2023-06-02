@@ -1,4 +1,4 @@
-package day04;
+package day_04;
 
 import java.util.Scanner;
 
@@ -24,7 +24,7 @@ public class Odev {
         int sayi=scan.nextInt();
 
             for (int i = 1 ; i<=sayi ; i++){
-                if(i%3==0 && i%5==0){
+                if(i%15==0){
                     System.out.print(" 15k");}else if(i%3==0){
                     System.out.print(" 3k");}else if(i%5==0){
                     System.out.print(" 5k");}else {
